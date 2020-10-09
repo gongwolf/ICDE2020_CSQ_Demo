@@ -1,0 +1,1231 @@
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.l.StoreLogService] Opened new internal log file
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1602173101916, randomId=-3195712043005143412, storeVersion=15813456178476550, upgradeTime=1602173101916, upgradeId=1}
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.3.4,a97930c567060dad961d7c06c8f225dcb15582f3
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.labels=56
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.strings=120
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db
+2020-10-08 16:09:27.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.block_size.array_properties=120
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=8G
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] KernelDiagnostics:Versions
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] NEO_STORE_VERSIONS
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] NEO_STORE_ID_USAGE
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] NEO_STORE_RECORDS
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] TRANSACTION_RANGE
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] KernelDiagnostics:StoreFiles
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 30.83 GB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 1007.09 MB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 11.83 GB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 2.00 GB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 2.00 GB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 396.61 MB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 454.00 MB
+2020-10-08 16:09:27.835+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 6.85 GB
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=12.13 MB, used=12.05 MB, max=240.00 MB, threshold=0.00 B
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=28.55 MB, used=27.30 MB, max=-1.00 B, threshold=0.00 B
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=4.80 MB, used=4.54 MB, max=1.00 GB, threshold=0.00 B
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=247.00 MB, used=34.42 MB, max=2.53 GB, threshold=?
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=20.50 MB, used=10.73 MB, max=20.50 MB, threshold=?
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=186.50 MB, used=12.24 MB, max=5.14 GB, threshold=0.00 B
+2020-10-08 16:09:27.836+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2020-10-08 16:09:27.837+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 5.4.0-48-generic; arch: amd64; cpus: 12
+2020-10-08 16:09:27.837+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 1048576
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 470
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 454638@gqxwolf-ThinkPad
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Denver
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.221-b11
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8]
+2020-10-08 16:09:27.838+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-coyote.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-util/5.2/asm-util-5.2.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-websocket.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ssl/3.3.4/neo4j-ssl-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-csv/3.3.4/neo4j-csv-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-analysis/5.2/asm-analysis-5.2.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.6/neo4j-graph-matching-3.1.6.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-management/3.3.4/neo4j-management-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jdbc.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-common/3.3.4/neo4j-common-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-hash/1.4.0/shiro-crypto-hash-1.4.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-metrics/3.3.4/neo4j-metrics-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/target/classes/
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/servlet-api.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security/3.3.4/neo4j-security-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jsp-api.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-dbcp.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jfr.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-codecs/5.5.0/lucene-codecs-5.5.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jsse.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jaccess.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.2/3.2.9/neo4j-cypher-frontend-3.2-3.2.9.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.3/3.3.4/neo4j-cypher-logical-plans-3.3-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-causal-clustering/3.3.4/neo4j-causal-clustering-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-codegen/3.3.4/neo4j-codegen-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.2/3.2.9/neo4j-cypher-compiler-3.2-3.2.9.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-kernel/3.3.4/neo4j-kernel-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/cldrdata.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-dbms/3.3.4/neo4j-dbms-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-io/3.3.4/neo4j-io-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-command-line/3.3.4/neo4j-command-line-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-values/3.3.4/neo4j-values-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jfxrt.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ant.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.28/jersey-hk2-2.28.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-core/1.4.0/shiro-config-core-1.4.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-storeconfig.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-cs.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-primitive-collections/3.3.4/neo4j-primitive-collections-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ru.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty-all/4.1.21.Final/netty-all-4.1.21.Final.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-event/1.4.0/shiro-event-1.4.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-nop/1.7.22/slf4j-nop-1.7.22.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ha/3.3.4/neo4j-ha-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.3.4/neo4j-lucene-upgrade-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-resource/3.3.4/neo4j-resource-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-algo/3.3.4/neo4j-graph-algo-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-configuration/3.3.4/neo4j-configuration-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/charsets.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-api.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-index/3.3.4/neo4j-lucene-index-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/classes
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.0/lucene-backward-codecs-5.5.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise-kernel/3.3.4/neo4j-enterprise-kernel-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher/3.3.4/neo4j-cypher-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ha.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/resources.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-index/3.3.4/neo4j-index-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.0/lucene-queryparser-5.5.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-ogdl/1.4.0/shiro-config-ogdl-1.4.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-pt-BR.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.3/3.3.4/neo4j-cypher-ir-3.3-3.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-core/5.5.0/lucene-core-5.5.0.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2020-10-08 16:09:27.844+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise/3.3.4/neo4j-enterprise-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-logging/3.3.4/neo4j-logging-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0/hk2-utils-2.5.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-cache/1.4.0/shiro-cache-1.4.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/localedata.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/nashorn.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-import-tool/3.3.4/neo4j-import-tool-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.8/jackson-module-jaxb-annotations-2.9.8.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ja.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.28/jersey-container-servlet-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/hazelcast/hazelcast-all/3.7.5/hazelcast-all-3.7.5.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-jmx/3.3.4/neo4j-jmx-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graphdb-api/3.3.4/neo4j-graphdb-api-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jce.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jni.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-auth-plugin-api/3.3.4/neo4j-auth-plugin-api-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.0/lucene-analyzers-common-5.5.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/el-api.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-cipher/1.4.0/shiro-crypto-cipher-1.4.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cluster/3.3.4/neo4j-cluster-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/rt.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-backup/3.3.4/neo4j-backup-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util-scan.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-lang/1.4.0/shiro-lang-1.4.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security-enterprise/3.3.4/neo4j-security-enterprise-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-collections/3.3.4/neo4j-collections-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/websocket-api.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0/hk2-locator-2.5.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunjce_provider.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper-el.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.53/bcprov-jdk15on-1.53.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ko.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-fr.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.28/jersey-entity-filtering-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/annotations-api.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.2/3.2.9/neo4j-cypher-ir-3.2-3.2.9.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.3/3.3.4/neo4j-cypher-compiler-3.3-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunec.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/sunrsasign.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/json/json/20180813/json-20180813.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.3/3.3.4/neo4j-cypher-frontend-3.3-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunpkcs11.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-zh-CN.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/ecj-4.10.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/zipfs.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0/hk2-api-2.5.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-unsafe/3.3.4/neo4j-unsafe-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0/aopalliance-repackaged-2.5.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-udc/3.3.4/neo4j-udc-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-de.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-consistency-check/3.3.4/neo4j-consistency-check-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-com/3.3.4/neo4j-com-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jaspic-api.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.28/jersey-media-json-jackson-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.53/bcpkix-jdk15on-1.53.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/dnsns.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-tribes.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.6/neo4j-cypher-frontend-3.1-3.1.6.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j/3.3.4/neo4j-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.6/neo4j-cypher-compiler-3.1-3.1.6.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-es.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-query-logging/3.3.4/neo4j-query-logging-3.3.4.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-core/1.4.0/shiro-crypto-core-1.4.0.jar
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib64
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] /lib64
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /opt/java-jdk/jdk1.8.0_221/jre/lib/amd64
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/gqxwolf
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Denver
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = gqxwolf
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = cs.nmsu.edu.demo.neo4jTools.CreateDB
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = gnome
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2020-10-08 16:09:27.845+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [none] mq-deadline 
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.846+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.848+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.848+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.849+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.850+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Interface wlp0s20f3:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9633:c015:8190:91ba%wlp0s20f3
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 192.168.1.12
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=9041 high=9059
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=3 high=2
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=18082 high=18099
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2020-10-08 16:09:27.851+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=1 high=0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1602173101916
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -3195712043005143412
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 6
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1602173101916
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160235014060
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 2197530
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1602173103313
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 315993423872 / 123128762368 / 38
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager] Storage files: (filename : modification date - size)
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2020-10-08T10:09:27-0600 - 0.00 B
+2020-10-08 16:09:27.852+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log.1: 2020-10-08T10:09:27-0600 - 46.90 kB
+2020-10-08 16:09:27.853+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-10-08T10:09:27-0600 - 46.90 kB
+2020-10-08 16:09:27.853+0000 INFO [o.n.k.i.DiagnosticsManager] Storage summary: 
+2020-10-08 16:09:27.853+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of store: 46.90 kB
+2020-10-08 16:09:27.853+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of mapped files: 0.00 B
+2020-10-08 16:09:27.853+0000 INFO [o.n.k.i.l.StoreLogService] Rotated internal log file
+2020-10-08 16:09:28.544+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'forseti'
+2020-10-08 16:09:28.732+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2020-10-08 16:09:28.747+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=8G
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2020-10-08 16:09:28.748+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2020-10-08 16:09:28.749+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2020-10-08 16:09:28.749+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2020-10-08 16:09:28.749+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2020-10-08 16:09:28.749+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2020-10-08 16:09:28.749+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2020-10-08 16:09:28.751+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 30.83 GB
+2020-10-08 16:09:28.751+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 869.65 MB
+2020-10-08 16:09:28.751+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 10.81 GB
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 2.00 GB
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 2.00 GB
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 385.69 MB
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 473.50 MB
+2020-10-08 16:09:28.752+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 6.85 GB
+2020-10-08 16:09:28.753+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2020-10-08 16:09:28.753+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2020-10-08 16:09:28.753+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=4.88 MB, used=4.80 MB, max=240.00 MB, threshold=0.00 B
+2020-10-08 16:09:28.754+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=13.38 MB, used=12.47 MB, max=-1.00 B, threshold=0.00 B
+2020-10-08 16:09:28.755+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=1.88 MB, used=1.66 MB, max=1.00 GB, threshold=0.00 B
+2020-10-08 16:09:28.762+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=123.50 MB, used=87.81 MB, max=2.53 GB, threshold=?
+2020-10-08 16:09:28.763+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=20.50 MB, used=0.00 B, max=20.50 MB, threshold=?
+2020-10-08 16:09:28.764+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=329.50 MB, used=0.00 B, max=5.14 GB, threshold=0.00 B
+2020-10-08 16:09:28.764+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2020-10-08 16:09:28.766+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 5.4.0-48-generic; arch: amd64; cpus: 12
+2020-10-08 16:09:28.766+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 1048576
+2020-10-08 16:09:28.767+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 165
+2020-10-08 16:09:28.770+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 455473@gqxwolf-ThinkPad
+2020-10-08 16:09:28.770+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2020-10-08 16:09:28.779+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Denver
+2020-10-08 16:09:28.780+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2020-10-08 16:09:28.780+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2020-10-08 16:09:28.780+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2020-10-08 16:09:28.780+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.221-b11
+2020-10-08 16:09:28.780+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:28.781+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8]
+2020-10-08 16:09:28.781+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-coyote.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-util/5.2/asm-util-5.2.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-websocket.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ssl/3.3.4/neo4j-ssl-3.3.4.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-csv/3.3.4/neo4j-csv-3.3.4.jar
+2020-10-08 16:09:28.783+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-analysis/5.2/asm-analysis-5.2.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.6/neo4j-graph-matching-3.1.6.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-management/3.3.4/neo4j-management-3.3.4.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jdbc.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-common/3.3.4/neo4j-common-3.3.4.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-hash/1.4.0/shiro-crypto-hash-1.4.0.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2020-10-08 16:09:28.784+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-metrics/3.3.4/neo4j-metrics-3.3.4.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/target/classes/
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/servlet-api.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security/3.3.4/neo4j-security-3.3.4.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jsp-api.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-dbcp.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jfr.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-codecs/5.5.0/lucene-codecs-5.5.0.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jsse.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jaccess.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.2/3.2.9/neo4j-cypher-frontend-3.2-3.2.9.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.3/3.3.4/neo4j-cypher-logical-plans-3.3-3.3.4.jar
+2020-10-08 16:09:28.785+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-causal-clustering/3.3.4/neo4j-causal-clustering-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-codegen/3.3.4/neo4j-codegen-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.2/3.2.9/neo4j-cypher-compiler-3.2-3.2.9.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-kernel/3.3.4/neo4j-kernel-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/cldrdata.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-dbms/3.3.4/neo4j-dbms-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-io/3.3.4/neo4j-io-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-command-line/3.3.4/neo4j-command-line-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-values/3.3.4/neo4j-values-3.3.4.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jfxrt.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
+2020-10-08 16:09:28.786+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ant.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.28/jersey-hk2-2.28.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-core/1.4.0/shiro-config-core-1.4.0.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-storeconfig.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-cs.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-primitive-collections/3.3.4/neo4j-primitive-collections-3.3.4.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ru.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty-all/4.1.21.Final/netty-all-4.1.21.Final.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-event/1.4.0/shiro-event-1.4.0.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-nop/1.7.22/slf4j-nop-1.7.22.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ha/3.3.4/neo4j-ha-3.3.4.jar
+2020-10-08 16:09:28.787+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.3.4/neo4j-lucene-upgrade-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-resource/3.3.4/neo4j-resource-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-algo/3.3.4/neo4j-graph-algo-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-configuration/3.3.4/neo4j-configuration-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/charsets.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-api.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-index/3.3.4/neo4j-lucene-index-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/classes
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.0/lucene-backward-codecs-5.5.0.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise-kernel/3.3.4/neo4j-enterprise-kernel-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher/3.3.4/neo4j-cypher-3.3.4.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ha.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/resources.jar
+2020-10-08 16:09:28.788+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-index/3.3.4/neo4j-index-3.3.4.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.0/lucene-queryparser-5.5.0.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-ogdl/1.4.0/shiro-config-ogdl-1.4.0.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-pt-BR.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.3/3.3.4/neo4j-cypher-ir-3.3-3.3.4.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-core/5.5.0/lucene-core-5.5.0.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise/3.3.4/neo4j-enterprise-3.3.4.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-logging/3.3.4/neo4j-logging-3.3.4.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar
+2020-10-08 16:09:28.789+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0/hk2-utils-2.5.0.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-cache/1.4.0/shiro-cache-1.4.0.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/localedata.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/nashorn.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-import-tool/3.3.4/neo4j-import-tool-3.3.4.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.8/jackson-module-jaxb-annotations-2.9.8.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ja.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.28/jersey-container-servlet-2.28.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/hazelcast/hazelcast-all/3.7.5/hazelcast-all-3.7.5.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-jmx/3.3.4/neo4j-jmx-3.3.4.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graphdb-api/3.3.4/neo4j-graphdb-api-3.3.4.jar
+2020-10-08 16:09:28.790+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jce.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jni.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-auth-plugin-api/3.3.4/neo4j-auth-plugin-api-3.3.4.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.0/lucene-analyzers-common-5.5.0.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/el-api.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-cipher/1.4.0/shiro-crypto-cipher-1.4.0.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cluster/3.3.4/neo4j-cluster-3.3.4.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/rt.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-backup/3.3.4/neo4j-backup-3.3.4.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util-scan.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-lang/1.4.0/shiro-lang-1.4.0.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+2020-10-08 16:09:28.791+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security-enterprise/3.3.4/neo4j-security-enterprise-3.3.4.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-collections/3.3.4/neo4j-collections-3.3.4.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/websocket-api.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0/hk2-locator-2.5.0.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunjce_provider.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper-el.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.53/bcprov-jdk15on-1.53.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ko.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-fr.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.28/jersey-entity-filtering-2.28.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/annotations-api.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.2/3.2.9/neo4j-cypher-ir-3.2-3.2.9.jar
+2020-10-08 16:09:28.792+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.3/3.3.4/neo4j-cypher-compiler-3.3-3.3.4.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunec.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/sunrsasign.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/json/json/20180813/json-20180813.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.3/3.3.4/neo4j-cypher-frontend-3.3-3.3.4.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunpkcs11.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-zh-CN.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/ecj-4.10.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/zipfs.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0/hk2-api-2.5.0.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-unsafe/3.3.4/neo4j-unsafe-3.3.4.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0/aopalliance-repackaged-2.5.0.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-udc/3.3.4/neo4j-udc-3.3.4.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-de.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+2020-10-08 16:09:28.793+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-consistency-check/3.3.4/neo4j-consistency-check-3.3.4.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-com/3.3.4/neo4j-com-3.3.4.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jaspic-api.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.28/jersey-media-json-jackson-2.28.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.53/bcpkix-jdk15on-1.53.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/dnsns.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-tribes.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.6/neo4j-cypher-frontend-3.1-3.1.6.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j/3.3.4/neo4j-3.3.4.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.6/neo4j-cypher-compiler-3.1-3.1.6.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-es.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-query-logging/3.3.4/neo4j-query-logging-3.3.4.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-core/1.4.0/shiro-crypto-core-1.4.0.jar
+2020-10-08 16:09:28.794+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib64
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] /lib64
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /opt/java-jdk/jdk1.8.0_221/jre/lib/amd64
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2020-10-08 16:09:28.795+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/gqxwolf
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Denver
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = gqxwolf
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = cs.nmsu.edu.demo.neo4jTools.CreateDB
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = gnome
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2020-10-08 16:09:28.796+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2020-10-08 16:09:28.799+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.800+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.800+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.800+0000 INFO [o.n.k.i.DiagnosticsManager] [none] mq-deadline 
+2020-10-08 16:09:28.800+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.800+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.801+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.802+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.803+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.804+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager] Interface wlp0s20f3:
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9633:c015:8190:91ba%wlp0s20f3
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 192.168.1.12
+2020-10-08 16:09:28.805+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2020-10-08 16:09:28.806+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2020-10-08 16:09:28.806+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2020-10-08 16:09:28.806+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2020-10-08 16:09:28.856+0000 INFO [o.n.m.MetricsExtension] Initiating metrics...
+2020-10-08 16:09:28.996+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_2[v0.A.8]' for the new store
+2020-10-08 16:09:29.317+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2020-10-08 16:09:29.319+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] No scan store found, this might just be first use. Preparing to rebuild.
+2020-10-08 16:09:29.336+0000 INFO [o.n.k.NeoStoreDataSource] Opened logical log [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2020-10-08 16:09:29.337+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at <no log position given>)
+2020-10-08 16:09:29.340+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2020-10-08 16:09:29.442+0000 WARN [o.n.k.i.s.MetaDataStore] Counts store rebuild completed.
+2020-10-08 16:09:29.459+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2020-10-08 16:09:29.460+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Rebuilding scan store, this may take a while
+2020-10-08 16:09:29.466+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store rebuilt (roughly 0 nodes)
+2020-10-08 16:09:29.468+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2020-10-08 16:09:29.927+0000 INFO [o.n.b.BackupServer] BackupServer communication server started and bound to /127.0.0.1:6366
+2020-10-08 16:09:29.933+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2020-10-08 16:09:29.933+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2020-10-08 16:09:29.934+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2020-10-08 16:09:29.934+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1602173369217, randomId=703431276431290266, storeVersion=15813456178476550, upgradeTime=1602173369217, upgradeId=1}
+2020-10-08 16:09:29.934+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.3.4,a97930c567060dad961d7c06c8f225dcb15582f3
+2020-10-08 16:09:29.934+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2020-10-08 16:09:29.935+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2020-10-08 16:09:29.935+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2020-10-08 16:09:29.936+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2020-10-08 16:09:29.937+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1602173369217
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 703431276431290266
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2020-10-08 16:09:29.938+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1602173369217
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2020-10-08 16:09:29.939+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2020-10-08 16:09:29.940+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2020-10-08 16:09:29.940+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2020-10-08 16:09:29.940+0000 INFO [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2020-10-08 16:09:29.940+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2020-10-08 16:09:29.944+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2020-10-08 16:09:29.945+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 315993423872 / 123128328192 / 38
+2020-10-08 16:09:29.945+0000 INFO [o.n.k.i.DiagnosticsManager] Storage files: (filename : modification date - size)
+2020-10-08 16:09:29.945+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2020-10-08T10:09:29-0600 - 95.52 kB
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log.1: 2020-10-08T10:09:27-0600 - 93.80 kB
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-10-08T10:09:27-0600 - 189.32 kB
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.946+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2020-10-08T10:09:29-0600 - 96.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2020-10-08T10:09:29-0600 - 40.00 kB
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.947+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.948+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.949+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.949+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.949+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.950+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:29.950+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.950+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.951+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.951+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:29.952+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2020-10-08T10:09:29-0600 - 9.00 B
+2020-10-08 16:09:29.952+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2020-10-08T10:09:29-0600 - 16.00 B
+2020-10-08 16:09:29.953+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2020-10-08T10:09:28-0600 - 0.00 B
+2020-10-08 16:09:29.953+0000 INFO [o.n.k.i.DiagnosticsManager] Storage summary: 
+2020-10-08 16:09:29.954+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of store: 301.56 kB
+2020-10-08 16:09:29.954+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2020-10-08 16:09:29.954+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2020-10-08 16:09:30.878+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2020-10-08 16:09:30.879+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2020-10-08 16:09:30.879+0000 INFO [o.n.b.BackupServer] BackupServer communication server shutting down and unbinding from  /127.0.0.1:6366
+2020-10-08 16:09:30.890+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting check pointing...
+2020-10-08 16:09:30.890+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting store flush...
+2020-10-08 16:09:30.896+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 6 to [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.b], from [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.a].
+2020-10-08 16:09:30.896+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 6 to [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.b], from [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.a].
+2020-10-08 16:09:30.906+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Store flush completed
+2020-10-08 16:09:30.906+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting appending check point entry into the tx log...
+2020-10-08 16:09:30.907+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Appending check point entry into the tx log completed
+2020-10-08 16:09:30.907+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Check pointing completed
+2020-10-08 16:09:30.907+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2020-10-08 16:09:30.907+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2020-10-08 16:09:30.922+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2020-10-08 16:09:30.922+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2020-10-08 16:09:30.925+0000 INFO [o.n.k.c.Config] Setting changed: 'dbms.logs.query.enabled' changed from 'default (false)' to 'false'
+2020-10-08 16:09:30.980+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'forseti'
+2020-10-08 16:09:30.995+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=8G
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 30.83 GB
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 612.71 MB
+2020-10-08 16:09:30.996+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 11.61 GB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 2.00 GB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 2.00 GB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 230.54 MB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 454.50 MB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 6.85 GB
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=10.31 MB, used=10.23 MB, max=240.00 MB, threshold=0.00 B
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=28.05 MB, used=26.94 MB, max=-1.00 B, threshold=0.00 B
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=4.80 MB, used=4.52 MB, max=1.00 GB, threshold=0.00 B
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=247.00 MB, used=211.85 MB, max=2.53 GB, threshold=?
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=20.50 MB, used=0.00 B, max=20.50 MB, threshold=?
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=187.00 MB, used=12.11 MB, max=5.14 GB, threshold=0.00 B
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 5.4.0-48-generic; arch: amd64; cpus: 12
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 1048576
+2020-10-08 16:09:30.997+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 169
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 455473@gqxwolf-ThinkPad
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Denver
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.221-b11
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8]
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-coyote.jar
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-util/5.2/asm-util-5.2.jar
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina.jar
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-websocket.jar
+2020-10-08 16:09:30.998+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ssl/3.3.4/neo4j-ssl-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/javassist/javassist/3.22.0-CR2/javassist-3.22.0-CR2.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-csv/3.3.4/neo4j-csv-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-analysis/5.2/asm-analysis-5.2.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.6/neo4j-graph-matching-3.1.6.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-management/3.3.4/neo4j-management-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jdbc.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-common/3.3.4/neo4j-common-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm/5.2/asm-5.2.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-hash/1.4.0/shiro-crypto-hash-1.4.0.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-metrics/3.3.4/neo4j-metrics-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/target/classes/
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/servlet-api.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security/3.3.4/neo4j-security-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jsp-api.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-dbcp.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.5.0/jakarta.inject-2.5.0.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jfr.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-codecs/5.5.0/lucene-codecs-5.5.0.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jsse.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jaccess.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.2/3.2.9/neo4j-cypher-frontend-3.2-3.2.9.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.3/3.3.4/neo4j-cypher-logical-plans-3.3-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-causal-clustering/3.3.4/neo4j-causal-clustering-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-codegen/3.3.4/neo4j-codegen-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.2/3.2.9/neo4j-cypher-compiler-3.2-3.2.9.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-kernel/3.3.4/neo4j-kernel-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/cldrdata.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-dbms/3.3.4/neo4j-dbms-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-io/3.3.4/neo4j-io-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-command-line/3.3.4/neo4j-command-line-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-values/3.3.4/neo4j-values-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/jfxrt.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ant.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.28/jersey-hk2-2.28.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-core/1.4.0/shiro-config-core-1.4.0.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-storeconfig.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-cs.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-primitive-collections/3.3.4/neo4j-primitive-collections-3.3.4.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ru.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty-all/4.1.21.Final/netty-all-4.1.21.Final.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-event/1.4.0/shiro-event-1.4.0.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-nop/1.7.22/slf4j-nop-1.7.22.jar
+2020-10-08 16:09:30.999+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-ha/3.3.4/neo4j-ha-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.3.4/neo4j-lucene-upgrade-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-resource/3.3.4/neo4j-resource-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graph-algo/3.3.4/neo4j-graph-algo-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-configuration/3.3.4/neo4j-configuration-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/charsets.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-api.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-lucene-index/3.3.4/neo4j-lucene-index-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/classes
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-backward-codecs/5.5.0/lucene-backward-codecs-5.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise-kernel/3.3.4/neo4j-enterprise-kernel-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher/3.3.4/neo4j-cypher-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-ha.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/resources.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-index/3.3.4/neo4j-index-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.0/lucene-queryparser-5.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-config-ogdl/1.4.0/shiro-config-ogdl-1.4.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-pt-BR.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.3/3.3.4/neo4j-cypher-ir-3.3-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-core/5.5.0/lucene-core-5.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.4/jakarta.annotation-api-1.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-enterprise/3.3.4/neo4j-enterprise-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-logging/3.3.4/neo4j-logging-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-utils/2.5.0/hk2-utils-2.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-cache/1.4.0/shiro-cache-1.4.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/localedata.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/nashorn.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-import-tool/3.3.4/neo4j-import-tool-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.8/jackson-module-jaxb-annotations-2.9.8.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ja.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.28/jersey-container-servlet-2.28.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/hazelcast/hazelcast-all/3.7.5/hazelcast-all-3.7.5.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-jmx/3.3.4/neo4j-jmx-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-graphdb-api/3.3.4/neo4j-graphdb-api-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/jce.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-jni.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-auth-plugin-api/3.3.4/neo4j-auth-plugin-api-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.0/lucene-analyzers-common-5.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/el-api.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-cipher/1.4.0/shiro-crypto-cipher-1.4.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cluster/3.3.4/neo4j-cluster-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/rt.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/netty/netty/3.9.9.Final/netty-3.9.9.Final.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-backup/3.3.4/neo4j-backup-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-util-scan.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-lang/1.4.0/shiro-lang-1.4.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-security-enterprise/3.3.4/neo4j-security-enterprise-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-collections/3.3.4/neo4j-collections-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/websocket-api.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-locator/2.5.0/hk2-locator-2.5.0.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/ow2/asm/asm-tree/5.2/asm-tree-5.2.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunjce_provider.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper-el.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.53/bcprov-jdk15on-1.53.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-ko.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-fr.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.28/jersey-entity-filtering-2.28.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/annotations-api.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-ir-3.2/3.2.9/neo4j-cypher-ir-3.2-3.2.9.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.3/3.3.4/neo4j-cypher-compiler-3.3-3.3.4.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jasper.jar
+2020-10-08 16:09:31.000+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunec.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /opt/java-jdk/jdk1.8.0_221/jre/lib/sunrsasign.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/json/json/20180813/json-20180813.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.3/3.3.4/neo4j-cypher-frontend-3.3-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/sunpkcs11.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-zh-CN.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.5/jakarta.ws.rs-api-2.1.5.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/ecj-4.10.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/zipfs.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/hk2-api/2.5.0/hk2-api-2.5.0.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-unsafe/3.3.4/neo4j-unsafe-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0/aopalliance-repackaged-2.5.0.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-udc/3.3.4/neo4j-udc-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-de.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-consistency-check/3.3.4/neo4j-consistency-check-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-com/3.3.4/neo4j-com-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/jaspic-api.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/media/jersey-media-json-jackson/2.28/jersey-media-json-jackson-2.28.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.53/bcpkix-jdk15on-1.53.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/opt/java-jdk/jdk1.8.0_221/jre/lib/ext/dnsns.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/catalina-tribes.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.6/neo4j-cypher-frontend-3.1-3.1.6.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j/3.3.4/neo4j-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.6/neo4j-cypher-compiler-3.1-3.1.6.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/mydata/software/apache-tomcat9020/lib/tomcat-i18n-es.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/neo4j/neo4j-query-logging/3.3.4/neo4j-query-logging-3.3.4.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/gqxwolf/.m2/repository/org/apache/shiro/shiro-crypto-core/1.4.0/shiro-crypto-core-1.4.0.jar
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib64
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] /lib64
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /opt/java-jdk/jdk1.8.0_221/jre/lib/amd64
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/gqxwolf
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Denver
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = gqxwolf
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = cs.nmsu.edu.demo.neo4jTools.CreateDB
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2020-10-08 16:09:31.001+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = gnome
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] [none] mq-deadline 
+2020-10-08 16:09:31.002+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.003+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.004+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.005+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.005+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.006+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.006+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.007+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.007+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.007+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.008+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.009+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.009+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.009+0000 INFO [o.n.k.i.DiagnosticsManager] [mq-deadline] none
+2020-10-08 16:09:31.010+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2020-10-08 16:09:31.010+0000 INFO [o.n.k.i.DiagnosticsManager] Interface wlp0s20f3:
+2020-10-08 16:09:31.010+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:9633:c015:8190:91ba%wlp0s20f3
+2020-10-08 16:09:31.010+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 192.168.1.12
+2020-10-08 16:09:31.011+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2020-10-08 16:09:31.011+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2020-10-08 16:09:31.011+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2020-10-08 16:09:31.011+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2020-10-08 16:09:31.014+0000 INFO [o.n.m.MetricsExtension] Initiating metrics...
+2020-10-08 16:09:31.105+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db
+2020-10-08 16:09:31.109+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db
+2020-10-08 16:09:31.109+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2020-10-08 16:09:31.129+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2020-10-08 16:09:31.133+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=2197530})
+2020-10-08 16:09:31.137+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2020-10-08 16:09:31.139+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2020-10-08 16:09:31.149+0000 INFO [o.n.b.BackupServer] BackupServer communication server started and bound to /127.0.0.1:6366
+2020-10-08 16:09:31.151+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2020-10-08 16:09:31.151+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2020-10-08 16:09:31.151+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1602173369217, randomId=703431276431290266, storeVersion=15813456178476550, upgradeTime=1602173369217, upgradeId=1}
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.3.4,a97930c567060dad961d7c06c8f225dcb15582f3
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:31.152+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2020-10-08 16:09:31.153+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=9041 high=9059
+2020-10-08 16:09:31.154+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=3 high=2
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=18082 high=18099
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2020-10-08 16:09:31.155+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=1 high=0
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1602173369217
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 703431276431290266
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2020-10-08 16:09:31.156+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 6
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1602173369217
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161974085468
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2020-10-08 16:09:31.157+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 2197530
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1602173370607
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2020-10-08 16:09:31.158+0000 INFO [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2020-10-08 16:09:31.159+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2020-10-08 16:09:31.159+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2020-10-08 16:09:31.159+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 315993423872 / 123125153792 / 38
+2020-10-08 16:09:31.159+0000 INFO [o.n.k.i.DiagnosticsManager] Storage files: (filename : modification date - size)
+2020-10-08 16:09:31.159+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2020-10-08 16:09:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2020-10-08 16:09:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2020-10-08T10:09:31-0600 - 151.72 kB
+2020-10-08 16:09:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log.1: 2020-10-08T10:09:27-0600 - 93.80 kB
+2020-10-08 16:09:31.160+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-10-08T10:09:27-0600 - 245.52 kB
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2020-10-08T10:09:30-0600 - 8.00 kB
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2020-10-08T10:09:29-0600 - 96.00 B
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2020-10-08T10:09:30-0600 - 160.00 B
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2020-10-08T10:09:31-0600 - 48.00 kB
+2020-10-08 16:09:31.161+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2020-10-08T10:09:30-0600 - 8.00 kB
+2020-10-08 16:09:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2020-10-08T10:09:30-0600 - 8.00 kB
+2020-10-08 16:09:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2020-10-08T10:09:30-0600 - 135.97 kB
+2020-10-08 16:09:31.162+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2020-10-08T10:09:31-0600 - 161.00 B
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2020-10-08T10:09:30-0600 - 725.07 kB
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.163+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2020-10-08T10:09:31-0600 - 153.00 B
+2020-10-08 16:09:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2020-10-08T10:09:30-0600 - 8.00 kB
+2020-10-08 16:09:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2020-10-08T10:09:30-0600 - 8.00 kB
+2020-10-08 16:09:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.164+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.165+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2020-10-08T10:09:29-0600 - 0.00 B
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2020-10-08T10:09:29-0600 - 8.00 kB
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2020-10-08T10:09:31-0600 - 9.00 B
+2020-10-08 16:09:31.166+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2020-10-08T10:09:30-0600 - 2.10 MB
+2020-10-08 16:09:31.167+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2020-10-08T10:09:28-0600 - 0.00 B
+2020-10-08 16:09:31.167+0000 INFO [o.n.k.i.DiagnosticsManager] Storage summary: 
+2020-10-08 16:09:31.167+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of store: 3.31 MB
+2020-10-08 16:09:31.167+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of mapped files: 997.03 kB
+2020-10-08 16:09:31.167+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2020-10-08 16:09:31.784+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2020-10-08 16:09:31.784+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2020-10-08 16:09:31.784+0000 INFO [o.n.b.BackupServer] BackupServer communication server shutting down and unbinding from  /127.0.0.1:6366
+2020-10-08 16:09:31.786+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Starting check pointing...
+2020-10-08 16:09:31.786+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Starting store flush...
+2020-10-08 16:09:31.787+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 11 to [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.a], from [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.b].
+2020-10-08 16:09:31.787+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 11 to [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.a], from [/home/gqxwolf/eclipse-workspace/ICDE2020CSQDemo/Data/Neo4jDB_files/testdb_SF_Gaussian/databases/graph.db/neostore.counts.db.b].
+2020-10-08 16:09:31.796+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Store flush completed
+2020-10-08 16:09:31.796+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Starting appending check point entry into the tx log...
+2020-10-08 16:09:31.796+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Appending check point entry into the tx log completed
+2020-10-08 16:09:31.797+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [11]:  Check pointing completed
+2020-10-08 16:09:31.797+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2020-10-08 16:09:31.797+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2020-10-08 16:09:31.808+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2020-10-08 16:09:31.808+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2020-10-08 16:09:31.815+0000 INFO [o.n.k.c.Config] Setting changed: 'dbms.logs.query.enabled' changed from 'default (false)' to 'false'
+2020-10-08 17:47:00.220+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2020-10-08 17:47:00.220+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2020-10-08 17:47:00.220+0000 INFO [o.n.b.BackupServer] BackupServer communication server shutting down and unbinding from  /127.0.0.1:6363
+2020-10-08 17:47:00.222+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting check pointing...
+2020-10-08 17:47:00.222+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting store flush...
+2020-10-08 17:47:00.230+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Store flush completed
+2020-10-08 17:47:00.230+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Starting appending check point entry into the tx log...
+2020-10-08 17:47:00.232+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Appending check point entry into the tx log completed
+2020-10-08 17:47:00.232+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [6]:  Check pointing completed
+2020-10-08 17:47:00.232+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2020-10-08 17:47:00.232+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2020-10-08 17:47:00.247+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2020-10-08 17:47:00.247+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2020-10-08 17:47:00.250+0000 INFO [o.n.k.c.Config] Setting changed: 'dbms.logs.query.enabled' changed from 'default (false)' to 'false'

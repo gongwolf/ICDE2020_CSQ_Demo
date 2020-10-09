@@ -1,0 +1,6 @@
+build
+target 
+
+Data/index/*
+Data/*.rtr
+Data/staticNode_real_*.txt
