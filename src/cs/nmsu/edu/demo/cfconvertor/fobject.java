@@ -1,6 +1,7 @@
 package cs.nmsu.edu.demo.cfconvertor;
 
 public class fobject {
+	
 	float f;
 
 	public fobject() {
