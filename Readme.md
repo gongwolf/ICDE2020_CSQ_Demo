@@ -36,7 +36,7 @@ Execute the maven command, ```mvn clean install```, The war file is generated in
 ### Implemented MCTN-constrained skyline queries approaches
 We implemented the index version of the exact improved method and two approximate approaches (```approxRange``` and ```approxMixed```).  
 
-**The details information and usage about the data process and detail information of the methods can be found on [MCTN-constrained CSQ](https://ieeexplore.ieee.org/document/8731518/) and [ICDE_ConstrainSkylineQuery](https://github.com/gongwolf/ICDE_ConstrainSkylineQuery).***
+**The details information and usage about the data process and detail information of the methods can be found on [MCTN-constrained CSQ](https://ieeexplore.ieee.org/document/8731518/) and [ICDE_ConstrainSkylineQuery](https://github.com/gongwolf/ICDE2019_CSQ).***
 
 ## Query from URL 
 As the figure shows, the CSQ also provide the RESTFUL webservice to conduct the MCTN-constrained skyline query, which are listed as below.
