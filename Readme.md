@@ -99,7 +99,7 @@ After selecting a query point and the search method, a user needs to specify the
 
 
 ## Demo Video
-[![CSQ System Demo](https://i9.ytimg.com/vi_webp/O9lP0cRmo4w/mq1.webp?sqp=CJC3__sF&rs=AOn4CLBZeKB7l1VonhcCAY4IADB5qSv5DQ)](https://www.youtube.com/watch?v=O9lP0cRmo4w "demonstration of the CSQ system
+[![CSQ System Demo](Figs/youtube_cover.jpg)](https://www.youtube.com/watch?v=O9lP0cRmo4w "demonstration of the CSQ system
 ")
 
 ## Acknowledgements
