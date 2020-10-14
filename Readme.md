@@ -1,8 +1,8 @@
 # CSQ System: A System to Support Constrained Skyline Queries on Transportation Networks
-This repository is the source code for our paper "Gong, Q., Jiefei Liu and H. Cao. “CSQ System: A System to Support Constrained Skyline Queries on Transportation Networks.” 2020 IEEE 36th International Conference on Data Engineering (ICDE) (2020): 1746-1749".
-A demo for the ICDE paper on constrained skyline query (CSQ) over multi-cost transportation network (MCTN).
-This is the implementation of a system to answer [constrained skyline query on multi-costs transportation network (MCTN-constrained CSQ)](https://ieeexplore.ieee.org/document/8731518/), namely CSQ system([https://ieeexplore.ieee.org/document/9101829/](https://ieeexplore.ieee.org/document/9101829/)). Given a multi-cost transportation network (MCTN) and a list of POI objects D (could be on/off the MCTN), this system is implemented as a web application, which allows users to input a query point from a web interface, get the skyline result by using several algorithms, and display the result on the web interface.  
-Besides all the index version of the improved exact approach and two approximate methods are implemented following the original work of [MCTN-constrained CSQ](https://ieeexplore.ieee.org/document/8731518/), we optimized the algorithms for practicality especially.
+This repository is the source code for our paper "Gong, Q., Jiefei Liu and H. Cao. “CSQ System: A System to Support Constrained Skyline Queries on Transportation Networks.” 2020 IEEE 36th International Conference on Data Engineering (ICDE) (2020): 1746-1749".  
+A demo of our ICDE paper on constrained skyline query (CSQ) over multi-cost transportation network (MCTN).
+This is the implementation of a system to answer [constrained skyline query on multi-costs transportation network (MCTN-constrained CSQ)](https://ieeexplore.ieee.org/document/8731518/), namely CSQ system([https://ieeexplore.ieee.org/document/9101829/](https://ieeexplore.ieee.org/document/9101829/)). Given a multi-cost transportation network (MCTN) and a list of POI objects D (could be on/off the MCTN), this system is implemented as a web application, which allows users to input a query point from a web interface, get skyline results by using several algorithms, and display the results on the web interface.  
+Besides the index version of the improved exact approach and two approximate methods are implemented following the original work of [MCTN-constrained CSQ](https://ieeexplore.ieee.org/document/8731518/), we optimized the algorithms for practicality especially.
 In detail, the CSQ system 1) accepts a query point could not be in the list of POI objects and 2) adds one more constraint to the search algorithms by constraining the length of graph paths. 
 
 <p align="center" style="width: 350;height: 50px">
@@ -10,11 +10,11 @@ In detail, the CSQ system 1) accepts a query point could not be in the list of P
 </p>
 
 ## Requirements 
-- Neo4j,[https://neo4j.com/](https://neo4j.com/), our code embedded Neo4j ([https://neo4j.com/docs/java-reference/current/java-embedded/](https://neo4j.com/docs/java-reference/current/java-embedded/)) to our JAVA code. So there is no need to install the neo4j physically. 
+- Neo4j,[https://neo4j.com/](https://neo4j.com/), our code embedded Neo4j ([https://neo4j.com/docs/java-reference/current/java-embedded/](https://neo4j.com/docs/java-reference/current/java-embedded/)). So there is no need to install the neo4j physically. 
 - [Apache Maven](https://maven.apache.org/)
 - [Apache commons-io](http://commons.apache.org/proper/commons-io/)
 - [Apache commons-math3](https://commons.apache.org/proper/commons-math/)
-- JAVA 8
+- JAVA 8, if you are not using JAVA8, please make sure the [JavaFX](https://en.wikipedia.org/wiki/JavaFX) is included in your JAVA path. 
 - [Tomcat v9.0.20](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.20/bin/)
 
 ## Architecture
@@ -27,7 +27,7 @@ In detail, the CSQ system 1) accepts a query point could not be in the list of P
 ### Preprocess road network data and POI object data
 We explain and demonstrate the CSQ system on datasets of three cities (New York City, Los Angeles and San Francisco). The details of the datasets can be found in our paper. In order to save spaces, we only uploaded raw files of the datasets under the folder ```Data```.
 - The graph DBs are created by calling the main function of the ```cs.nmsu.edu.demo.neo4jTools.createDB.java```. The road network information is read from ```NodeInfo.txt``` and ```SegInfo.txt```. The DBs are generated under ```Data\Neo4jDB_files``` with the city names. 
-- The POIs objects are stored by using the R-star tree (```.rtr```) and Object information ```.txt```, which are created by calling the main function of the ```cs.nmsu.edu.demo.utilities.SeparateRealData```. The POI objects for each type and each city are stored separately. 
+- The POIs objects are stored by using a R-star tree (```.rtr```) and by a static object information file```.txt```, which are created by calling the main function of the ```cs.nmsu.edu.demo.utilities.SeparateRealData```. The POI objects for each type and each city are stored separately. 
 - The index is created under the folder ```Data\index``` by calling the ```cs.nmsu.edu.demo.methods.Index```.  
 
 ### Compile
@@ -103,5 +103,6 @@ After selecting a query point and the search method, a user needs to specify the
 ")
 
 ## Acknowledgements
-pecial thanks to java implementatioan fo the [R*-tree](http://chorochronos.datastories.org/?q=node/43)\[1\].  
+This work was supported by NSF #1633330.  
+Special thanks for the JAVA implementation of the [R*-tree](http://chorochronos.datastories.org/?q=node/43)\[1\].  
 [1] Beckmann, N., H. Kriegel, R. Schneider and B. Seeger. “The R*-tree: an efficient and robust access method for points and rectangles.” SIGMOD '90 (1990).
